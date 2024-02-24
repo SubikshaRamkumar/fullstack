@@ -12,9 +12,9 @@ const Navbar = () => {
         <ul className='list'>
             <li className='lists'><Link className="lin" to="/agrofunds/user/home">Home</Link></li>
             <li className='lists'><Link className="lin"to="/agrofunds/user/about">About</Link></li>
-            <li className='lists'><Link className="lin" to="/agrofunds/user/home">Eligibility</Link></li>
-            <li className='lists'><Link className="lin" to="/agrofunds/user/home">Types of loans</Link></li>
-            <li className='lists'><Link className="lin" to="/agrofunds/user/home">Apply Loan</Link></li>
+            <li className='lists'><Link className="lin" to="/agrofunds/user/profile">Profile</Link></li>
+            {/* <li className='lists'><Link className="lin" to="/agrofunds/user/home">Types of loans</Link></li>
+            <li className='lists'><Link className="lin" to="/agrofunds/user/home">Apply Loan</Link></li>  */}
         </ul>
       </div>
     </div>

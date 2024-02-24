@@ -8,8 +8,10 @@ const LazyLogin = lazy(() => import("./pages/auth/Login"));
 const LazyRegister = lazy(() => import("./pages/auth/Register"));
 const LazyHome = lazy(() => import("./pages/user/Home"));
 const LazyAbout = lazy(() => import("./pages/user/About"));
+const LazyProfile = lazy(() => import("./pages/user/Profile"));
 const LazyDashBoard = lazy(() => import("./pages/admin/DashBoard"));
 const LazyUserInfo = lazy(() => import("./pages/admin/UserInfo"));
+const LazyTypes = lazy(() => import("./pages/user/LoanTypes"));
 
 const UserRoutes = () => {
   return (
@@ -19,6 +21,14 @@ const UserRoutes = () => {
         <Route
           path="/about"
           element={<LazyLayout component={LazyAbout} />}
+        />
+        <Route
+          path="/profile"
+          element={<LazyLayout component={LazyProfile} />}
+        />
+        <Route
+          path="/loantypes"
+          element={<LazyLayout component={LazyTypes} />}
         />
       </Routes>
     </UserLayout>

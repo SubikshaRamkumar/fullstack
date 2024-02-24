@@ -15,8 +15,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(133, 231, 76, 0.8);
-    box-shadow: 3px 3px 20px rgb(16, 108, 16);
+    /* background-color: rgba(94,58,69,255); */
+    background-color: #422930;
+    box-shadow: 1px 1px 20px #382329;
 }
 
 .navbar .menu .list
@@ -29,6 +30,6 @@
 }
 .lists .lin{ 
     text-decoration: none;
-    color: black;
+    color: #dfd8da;
     font-size: 20px;
 }
