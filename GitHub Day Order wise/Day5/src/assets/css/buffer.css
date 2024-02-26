@@ -1,0 +1,11 @@
+.buffer{
+    height: 90vh;width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.buffer_img
+{
+    height: 10%;
+    width: 10%;
+}
